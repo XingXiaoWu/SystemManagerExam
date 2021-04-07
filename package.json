@@ -1,0 +1,17 @@
+{
+  "name": "system-manager-exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:XingXiaoWu/SystemManagerExam.git",
+  "author": "无星 <32910694@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "init": "npx gitbook init",
+    "bookinstall": "npx gitbook install",
+    "serve": "npx gitbook serve",
+    "build": "npx gitbook build"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
