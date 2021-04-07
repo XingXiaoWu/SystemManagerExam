@@ -1,0 +1,11 @@
+{
+  "name": "system-manager-exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:XingXiaoWu/SystemManagerExam.git",
+  "author": "无星 <32910694@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
