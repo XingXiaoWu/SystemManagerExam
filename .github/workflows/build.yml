@@ -28,7 +28,7 @@ jobs:
       - name: config-gitbook
         run: |
           npm install
-          npx gitbook init
+          npx gitbook install
           npx gitbook build
 
       - name: Deploy
