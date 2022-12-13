@@ -6,10 +6,10 @@
   "author": "无星 <32910694@qq.com>",
   "license": "MIT",
   "scripts": {
-    "init":"npx gitbook init",
-    "bookinstall":"npx gitbook install",
-    "serve":"npx gitbook serve",
-    "build":"npx gitbook build"
+    "init": "pnpm exec gitbook init",
+    "bookinstall": "pnpm exec gitbook install",
+    "serve": "pnpm exec gitbook serve",
+    "build": "pnpm exec gitbook build"
   },
   "devDependencies": {
     "gitbook-cli": "^2.3.2"
