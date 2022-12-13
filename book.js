@@ -6,13 +6,18 @@
  * @Description: In User Settings Edit
  * @FilePath: /笔记/book.js
  */
-  
+
 module.exports = {
     // Enforce use of GitBook v3
     gitbook: '3.2.3',
     language: "zh-hans",
-    plugins:[
+    plugins: [
+        "search",
+        "highlight",
+        "sharing",
+        "emphasize",
+        "livereload",
     ],
-    pluginsConfig:{
+    pluginsConfig: {
     }
 };
