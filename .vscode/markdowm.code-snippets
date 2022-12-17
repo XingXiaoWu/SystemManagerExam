@@ -18,7 +18,7 @@
 	"fontColor":{
 		"prefix": "color",
 		"body": [
-			"{% em type='$1' %}'$2'{% endem %}"
+			"{% em type='$1' %}$2{% endem %}"
 		],
 		"description": "颜色"
 	}
